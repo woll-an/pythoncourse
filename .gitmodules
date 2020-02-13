@@ -1,0 +1,3 @@
+[submodule "mobilerobot"]
+	path = mobilerobot
+	url = https://github.com/woll-an/mobilerobot.git
