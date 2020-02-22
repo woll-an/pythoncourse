@@ -42,8 +42,8 @@ r2.controller = move2
 r3.controller = move3
 
 # initialize world and animation
-sworld = SimpleWorld(x=100, y=100, robots=[r1, r2, r3])
-sworld.initAnimation()
+world = SimpleWorld(x=100, y=100, robots=[r1, r2, r3])
+world.initAnimation()
 
 # show plot
-sworld.showScene()
+world.showScene()

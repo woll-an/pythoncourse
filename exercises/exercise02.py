@@ -34,8 +34,8 @@ def move(robot, rightMeasurement, leftMeasurement):
 r.controller = move
 
 # initialize world and animation
-sworld = LightWorld(x=100, y=100, robots=[r], light=l)
-sworld.initAnimation()
+world = LightWorld(x=100, y=100, robots=[r], light=l)
+world.initAnimation()
 
 # show plot
-sworld.showScene()
+world.showScene()
