@@ -2,7 +2,7 @@ import sys
 sys.path.append('mobilerobot')
 
 # import necessary classes
-from world import SimpleWorld
+from world import RobotWorld
 from robot import Robot
 
 # initialize three robots
@@ -42,7 +42,7 @@ r2.controller = move2
 r3.controller = move3
 
 # initialize world and animation
-world = SimpleWorld(x=100, y=100, robots=[r1, r2, r3])
+world = RobotWorld(x=100, y=100, robots=[r1, r2, r3])
 world.initAnimation()
 
 # show plot
